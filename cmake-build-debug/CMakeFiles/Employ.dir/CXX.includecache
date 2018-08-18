@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Samsung/CLionProjects/Employ/conio.h
+stdio.h
+-
+
+/cygdrive/c/Users/Samsung/CLionProjects/Employ/employ.h
+string.h
+-
+cstdio
+-
+
+/cygdrive/c/Users/Samsung/CLionProjects/Employ/main.cpp
+iostream
+-
+string.h
+-
+conio.h
+/cygdrive/c/Users/Samsung/CLionProjects/Employ/conio.h
+employ.h
+/cygdrive/c/Users/Samsung/CLionProjects/Employ/employ.h
+
