@@ -11,8 +11,8 @@
 #include <string.h>
 #include <cstdio>
 
-#ifndef EMPLOY_EMPLOY_H
-#define EMPLOY_EMPLOY_H
+#ifndef EMPLOYER_EMPLOYER_H
+#define EMPLOYER_EMPLOYER_H
 
 class employer {
 

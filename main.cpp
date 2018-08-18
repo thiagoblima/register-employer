@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include "conio.h"
-#include "employ.h"
+#include "employer.h"
 
 int main() {
     employer *e;
