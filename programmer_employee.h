@@ -129,12 +129,12 @@ programmer::p_lang_front_end &programmer::getProgrammerLangFrontEnd() {
     std::cout << "Enter the developer front-end language: ";
     std::cin >> t;
     switch(t){
-        case programmer::p_lang_front_end ::JAVASCRIPT     : std::cout << t << " - JavaScript dev \n"  ; break;
-        case programmer::p_lang_front_end ::TYPESCRIPT     : std::cout << t << " - TypeScript dev \n"    ; break;
-        case programmer::p_lang_front_end ::ANGULAR        : std::cout << t << " - Angular dev \n" ; break;
-        case programmer::p_lang_front_end ::REACT          : std::cout << t << " - React dev \n" ; break;
-        case programmer::p_lang_front_end ::HTML5          : std::cout << t << " - HTML5 dev \n" ; break;
-        case programmer::p_lang_front_end ::SASS           : std::cout << t << " - SASS dev \n" ; break;
+        case programmer::p_lang_front_end::JAVASCRIPT     : std::cout << t << " - JavaScript dev \n"  ; break;
+        case programmer::p_lang_front_end::TYPESCRIPT     : std::cout << t << " - TypeScript dev \n"    ; break;
+        case programmer::p_lang_front_end::ANGULAR        : std::cout << t << " - Angular dev \n" ; break;
+        case programmer::p_lang_front_end::REACT          : std::cout << t << " - React dev \n" ; break;
+        case programmer::p_lang_front_end::HTML5          : std::cout << t << " - HTML5 dev \n" ; break;
+        case programmer::p_lang_front_end::SASS           : std::cout << t << " - SASS dev \n" ; break;
         case programmer::p_lang_front_end::CSS             : std::cout << t << " - CSS dev \n" ; break;
         default:  std::cout << "you MUST select a programmer back-end language\n";
     }
@@ -145,9 +145,9 @@ programmer::p_operational_system &programmer::getProgrammerOperationalSystem() {
     std::cout << "Enter the developer front-end language: ";
     std::cin >> t;
     switch(t){
-        case programmer::p_operational_system ::WINDOWS     : std::cout << t << " - Dev prefers Windows \n"  ; break;
-        case programmer::p_operational_system ::LINUX       : std::cout << t << " - Dev prefers Linux \n"    ; break;
-        case programmer::p_operational_system ::MAC         : std::cout << t << " - Dev prefers Linux \n" ; break;
+        case programmer::p_operational_system::WINDOWS     : std::cout << t << " - Dev prefers Windows \n"  ; break;
+        case programmer::p_operational_system::LINUX       : std::cout << t << " - Dev prefers Linux \n"    ; break;
+        case programmer::p_operational_system::MAC         : std::cout << t << " - Dev prefers Linux \n" ; break;
         default:  std::cout << "you MUST select a programmer OS preference \n";
     }
 }
