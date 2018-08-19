@@ -147,7 +147,7 @@ programmer::p_operational_system &programmer::getProgrammerOperationalSystem() {
     switch(t){
         case programmer::p_operational_system::WINDOWS     : std::cout << t << " - Dev prefers Windows \n"  ; break;
         case programmer::p_operational_system::LINUX       : std::cout << t << " - Dev prefers Linux \n"    ; break;
-        case programmer::p_operational_system::MAC         : std::cout << t << " - Dev prefers Linux \n" ; break;
+        case programmer::p_operational_system::MAC         : std::cout << t << " - Dev prefers MacOS \n" ; break;
         default:  std::cout << "you MUST select a programmer OS preference \n";
     }
 }
