@@ -5,9 +5,15 @@
       <w>elastname</w>
       <w>empid</w>
       <w>ename</w>
+      <w>fullstack</w>
       <w>lastname</w>
+      <w>nodejs</w>
+      <w>pbacklang</w>
       <w>pemp</w>
+      <w>pfrontlang</w>
+      <w>plevel</w>
       <w>pprogrammer</w>
+      <w>rubyonrails</w>
       <w>thiago</w>
     </words>
   </dictionary>
