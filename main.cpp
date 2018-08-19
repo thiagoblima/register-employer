@@ -13,7 +13,6 @@ int main() {
     cout << "Basic Standard Employee object model: " << endl << endl;
     e->putEmp(101, const_cast<char *>("f,d,a"), 22.789);
     e->getEmp();
-
     cout << endl;
 
     employee *a;
@@ -23,10 +22,12 @@ int main() {
     a->putEmp(100, 23, const_cast<char *>("m"), const_cast<char *>("thiago"), const_cast<char *>("lima"),
               const_cast<char *>("thiagolimasp@live.com"), 40.000);
     a->getCompleteEmp();
+    cout << endl;
 
     programmer *p;
     p = &pprogrammer;
 
+    cout << "Developer Standard object model: " << endl << endl;
     p->putProgrammer("SOFTWARE_ARCHITECT", "JAVA", 10);
     p->getProgrammer();
 

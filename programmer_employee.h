@@ -1,17 +1,9 @@
-#include <utility>
-
-
-
-
 /**
  * @author: <thiagolimasp@live.com> - Thiago Lima
  * @class: programmer_employee
  * @description: Programmer employee class to define
  * the programmer's behavior.
  */
-//
-// Created by Samsung on 19/08/2018.
-//
 
 #ifndef EMPLOY_PROGRAMMER_EMPLOYEE_H
 #define EMPLOY_PROGRAMMER_EMPLOYEE_H
