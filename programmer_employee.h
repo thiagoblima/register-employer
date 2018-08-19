@@ -135,8 +135,8 @@ programmer::p_lang_front_end &programmer::getProgrammerLangFrontEnd() {
         case programmer::p_lang_front_end::REACT          : std::cout << t << " - React dev \n" ; break;
         case programmer::p_lang_front_end::HTML5          : std::cout << t << " - HTML5 dev \n" ; break;
         case programmer::p_lang_front_end::SASS           : std::cout << t << " - SASS dev \n" ; break;
-        case programmer::p_lang_front_end::CSS             : std::cout << t << " - CSS dev \n" ; break;
-        default:  std::cout << "you MUST select a programmer back-end language\n";
+        case programmer::p_lang_front_end::CSS            : std::cout << t << " - CSS dev \n" ; break;
+        default:  std::cout << "you MUST select a programmer front-end language\n";
     }
 }
 
