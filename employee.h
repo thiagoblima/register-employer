@@ -50,7 +50,7 @@ void employee::putEmp(int id, int age, char *gender, char *name, char *lastname,
 }
 
 void employee::getEmp() {
-    printf("EmployeeId=%d\n", this->empid);
+    printf("Employee Id=%d\n", this->empid);
     printf("Employee Name=%s\n", this->ename);
     printf("Employee Salary=%f\n",this->salary);
 }
