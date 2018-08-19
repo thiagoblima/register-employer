@@ -1,6 +1,6 @@
 /**
  * @author: <thiagolimasp@live.com> - Thiago Lima
- * @class: employ
+ * @class: employer
  * @description: Main class, data structure for
  * using <employ> object as model to be inherited
  * or polymorphically mutated in order to attend
@@ -11,13 +11,13 @@
 #include <string.h>
 #include <cstdio>
 
-#ifndef EMPLOYER_EMPLOYER_H
-#define EMPLOYER_EMPLOYER_H
+#ifndef EMPLOYEE_EMPLOYEE_H
+#define EMPLOYEE_EMPLOYEE_H
 
-class employer {
+class employee {
 
     // no need to set them as private,
-    // in C++ they're automatically private as defualt
+    // in C++ they're automatically private as default
 
     int empid;
     char ename[10];
@@ -29,13 +29,13 @@ public:
 
 }pemp;
 
-void employer::putEmp(int id, char *name, float basic) {
+void employee::putEmp(int id, char *name, float basic) {
     this->empid = id;
     strcpy(this->ename, name);
     this->salary = basic;
 }
 
-void employer::getEmp() {
+void employee::getEmp() {
     printf("EmployeeId=%d\n", this->empid);
     printf("Employee Name=%s\n", this->ename);
     printf("Employee Salary=%f\n",this->salary);

@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string.h>
 #include "conio.h"
-#include "employer.h"
+#include "employee.h"
 
 int main() {
-    employer *e;
+    employee *e;
     e = &pemp;
     e->putEmp(101, const_cast<char *>("f,d,a"), 22.789);
     e->getEmp();
