@@ -201,7 +201,7 @@ programmer::p_lang_front_end &programmer::getProgrammerLangFrontEnd() {
 
 programmer::p_operational_system &programmer::getProgrammerOperationalSystem() {
     char t = pos;
-    std::cout << "Enter the developer front-end language: ";
+    std::cout << "Enter the developer operational system preference: ";
     std::cin >> t;
     switch (t) {
         case programmer::p_operational_system::WINDOWS     :
