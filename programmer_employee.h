@@ -20,40 +20,40 @@
 class programmer : employee {
 protected:
     enum p_lang_level: char {
-        JUNIOR = 'J',
-        FULL = 'F',
-        SENIOR = 'S',
-        ARCHITECT = 'A',
-        ENGINEER = 'E'
+        junior = 'j',
+        full = 'f',
+        senior = 's',
+        architect = 'a',
+        engineer = 'e'
     } plevel;
     enum p_lang_role {
-        FRONTEND = 'F',
-        BACKEND = 'B',
-        FULLSTACK = 'S'
+        frontend = 'f',
+        backend = 'b',
+        fullstack = 's'
     } prole;
     enum p_lang_back_end {
-        JAVA = 'J',
-        PHP = 'P',
-        RUBYONRAILS = 'R',
-        C = 'C',
-        CPP = '+',
-        CSharp = '#',
-        VB = 'V',
-        NODE = 'N'
+        java = 'j',
+        php = 'p',
+        ruby = 'r',
+        c = 'c',
+        cpp = '+',
+        csharp = '#',
+        vb = 'v',
+        node = 'n'
     } pbacklang;
     enum p_lang_front_end {
-        JAVASCRIPT = 'J',
-        TYPESCRIPT = 'T',
-        ANGULAR = 'A',
-        REACT = 'R',
-        HTML5 = 'H',
-        SASS = 'S',
-        CSS = 'C',
+        javascript = 'j',
+        typescript = 't',
+        angular = 'a',
+        react = 'r',
+        html = 'h',
+        sass = 's',
+        css = 'c',
     } pfrontlang;
     enum p_operational_system {
-        WINDOWS = 'W',
-        LINUX = 'L',
-        MAC = 'M'
+        windows = 'w',
+        linux = 'l',
+        macos = 'm'
     } pos;
 private:
     int p_years_xp{};
@@ -95,19 +95,19 @@ programmer::p_lang_level &programmer::getProgrammerLevel() {
     std::cout << "Enter the developer skill: ";
     std::cin >> t;
     switch (t) {
-        case programmer::p_lang_level::JUNIOR     :
+        case programmer::p_lang_level::junior     :
             std::cout << t << " - Junior dev \n";
             break;
-        case programmer::p_lang_level::FULL       :
+        case programmer::p_lang_level::full       :
             std::cout << t << " - Full dev \n";
             break;
-        case programmer::p_lang_level::SENIOR     :
+        case programmer::p_lang_level::senior     :
             std::cout << t << " - Senior dev \n";
             break;
-        case programmer::p_lang_level::ARCHITECT  :
+        case programmer::p_lang_level::architect  :
             std::cout << t << " - Architect dev \n";
             break;
-        case programmer::p_lang_level::ENGINEER   :
+        case programmer::p_lang_level::engineer   :
             std::cout << t << " - Engineer dev \n";
             break;
         default:
@@ -120,13 +120,13 @@ programmer::p_lang_role &programmer::getProgrammerRole() {
     std::cout << "Enter the developer role: ";
     std::cin >> t;
     switch (t) {
-        case programmer::p_lang_role::FRONTEND   :
+        case programmer::p_lang_role::frontend   :
             std::cout << t << " - FrontEnd dev \n";
             break;
-        case programmer::p_lang_role::BACKEND    :
+        case programmer::p_lang_role::backend    :
             std::cout << t << " - BackEnd dev \n";
             break;
-        case programmer::p_lang_role::FULLSTACK  :
+        case programmer::p_lang_role::fullstack  :
             std::cout << t << " - Fullstack dev \n";
             break;
         default:
@@ -139,28 +139,28 @@ programmer::p_lang_back_end &programmer::getProgrammerLangBackEnd() {
     std::cout << "Enter the developer back-end language: ";
     std::cin >> t;
     switch (t) {
-        case programmer::p_lang_back_end::JAVA         :
+        case programmer::p_lang_back_end::java         :
             std::cout << t << " - Java dev \n";
             break;
-        case programmer::p_lang_back_end::PHP          :
+        case programmer::p_lang_back_end::php          :
             std::cout << t << " - PHP dev \n";
             break;
-        case programmer::p_lang_back_end::RUBYONRAILS  :
+        case programmer::p_lang_back_end::ruby  :
             std::cout << t << " - Ruby On Rails dev \n";
             break;
-        case programmer::p_lang_back_end::C            :
+        case programmer::p_lang_back_end::c            :
             std::cout << t << " - C dev \n";
             break;
-        case programmer::p_lang_back_end::CPP          :
+        case programmer::p_lang_back_end::cpp          :
             std::cout << t << " - C++ dev \n";
             break;
-        case programmer::p_lang_back_end::CSharp       :
+        case programmer::p_lang_back_end::csharp       :
             std::cout << t << " - C# dev \n";
             break;
-        case programmer::p_lang_back_end::VB           :
+        case programmer::p_lang_back_end::vb           :
             std::cout << t << " - VB dev \n";
             break;
-        case programmer::p_lang_back_end::NODE         :
+        case programmer::p_lang_back_end::node         :
             std::cout << t << " - Nodejs dev \n";
             break;
         default:
@@ -173,25 +173,25 @@ programmer::p_lang_front_end &programmer::getProgrammerLangFrontEnd() {
     std::cout << "Enter the developer front-end language: ";
     std::cin >> t;
     switch (t) {
-        case programmer::p_lang_front_end::JAVASCRIPT     :
+        case programmer::p_lang_front_end::javascript     :
             std::cout << t << " - JavaScript dev \n";
             break;
-        case programmer::p_lang_front_end::TYPESCRIPT     :
+        case programmer::p_lang_front_end::typescript     :
             std::cout << t << " - TypeScript dev \n";
             break;
-        case programmer::p_lang_front_end::ANGULAR        :
+        case programmer::p_lang_front_end::angular        :
             std::cout << t << " - Angular dev \n";
             break;
-        case programmer::p_lang_front_end::REACT          :
+        case programmer::p_lang_front_end::react          :
             std::cout << t << " - React dev \n";
             break;
-        case programmer::p_lang_front_end::HTML5          :
+        case programmer::p_lang_front_end::html          :
             std::cout << t << " - HTML5 dev \n";
             break;
-        case programmer::p_lang_front_end::SASS           :
+        case programmer::p_lang_front_end::sass           :
             std::cout << t << " - SASS dev \n";
             break;
-        case programmer::p_lang_front_end::CSS            :
+        case programmer::p_lang_front_end::css           :
             std::cout << t << " - CSS dev \n";
             break;
         default:
@@ -204,13 +204,13 @@ programmer::p_operational_system &programmer::getProgrammerOperationalSystem() {
     std::cout << "Enter the developer operational system preference: ";
     std::cin >> t;
     switch (t) {
-        case programmer::p_operational_system::WINDOWS     :
+        case programmer::p_operational_system::windows     :
             std::cout << t << " - Dev prefers Windows \n";
             break;
-        case programmer::p_operational_system::LINUX       :
+        case programmer::p_operational_system::linux       :
             std::cout << t << " - Dev prefers Linux \n";
             break;
-        case programmer::p_operational_system::MAC         :
+        case programmer::p_operational_system::macos         :
             std::cout << t << " - Dev prefers MacOS \n";
             break;
         default:

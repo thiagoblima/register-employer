@@ -14,25 +14,25 @@ int main() {
 
     string mystr;
 
-    cout << "### COMMAND LINE INTEGRATED SYSTEM ###" << endl << endl;
+    cout << "### Employer Command Line Interface Tool ###" << endl << endl;
 
-    cout << "#ENTER THE EMPLOYEE NAME:";
+    cout << "# - Enter the employee name:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getEmpName();
     cout << endl;
-    cout << "#ENTER THE EMPLOYEE LAST NAME:";
+    cout << "# - Enter the employee last name:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getEmpLastName();
     cout << endl;
-    cout << "#ENTER THE EMPLOYEE AGE:";
+    cout << "# - Enter the employee age:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getEmpAge();
     cout << endl;
-    cout << "#ENTER THE EMPLOYEE GENDER:";
+    cout << "# - enter the employee gender:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getGender();
     cout << endl;
-    cout << "#ENTER THE EMPLOYEE EMAIL:";
+    cout << "# - Enter the employee email:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getEmail();
     cout << endl;
