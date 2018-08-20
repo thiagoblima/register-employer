@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string.h>
+#include <string>
+#include <sstream>
 #include "conio.h"
 #include "employee.h"
 #include "programmer_employee.h"
@@ -7,30 +9,30 @@
 using namespace std;
 
 int main() {
-    employee *e;
-    e = &pemp;
-
-    cout << "Basic Standard Employee object model: " << endl << endl;
-    e->putEmp(101, const_cast<char *>("f,d,a"), 22.789);
-    e->getEmp();
-    cout << endl;
-
-    employee *a;
-    a = &aemp;
-
-    cout << "Complete Standard Employee object model: " << endl << endl;
-    a->putEmp(100, 23, const_cast<char *>("m"), const_cast<char *>("thiago"), const_cast<char *>("lima"),
-              const_cast<char *>("thiagolimasp@live.com"), 40.000);
-    a->getCompleteEmp();
-    cout << endl;
-
     programmer *p;
     p = &pprogrammer;
 
-    cout << "Developer Standard object model: " << endl << endl;
-    p->putProgrammer("SOFTWARE_ARCHITECT", "JAVA", 10);
-    p->getProgrammer();
+    string mystr;
 
+    cout << "### COMMAND LINE INTEGRATED SYSTEM ###" << endl << endl;
 
+    cout << "#ENTER THE EMPLOYEE NAME:";
+    getline(cin, mystr);
+    (stringstream) mystr >> p->employee_acessor.getEmpName();
+    cout << endl;
+    cout << "#ENTER THE EMPLOYEE LAST NAME:";
+    getline(cin, mystr);
+    (stringstream) mystr >> p->employee_acessor.getEmpLastName();
+    cout << endl;
+    cout << "#ENTER THE EMPLOYEE AGE:";
+    getline(cin, mystr);
+    (stringstream) mystr >> p->employee_acessor.getEmpAge();
+    cout << "#ENTER THE EMPLOYEE GENDER:";
+    getline(cin, mystr);
+    (stringstream) mystr >> p->employee_acessor.getGender();
+    cout << "#ENTER THE EMPLOYEE EMAIL:";
+    getline(cin, mystr);
+    (stringstream) mystr >> p->employee_acessor.getEmail();
+    
     return 0;
 }

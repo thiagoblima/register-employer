@@ -19,47 +19,49 @@
 
 class programmer : employee {
 protected:
-    enum p_lang_level {
-        JUNIOR,
-        FULL,
-        SENIOR,
-        ARCHITECT,
-        ENGINEER
+    enum p_lang_level: char {
+        JUNIOR = 'J',
+        FULL = 'F',
+        SENIOR = 'S',
+        ARCHITECT = 'A',
+        ENGINEER = 'E'
     } plevel;
     enum p_lang_role {
-        FRONTEND,
-        BACKEND,
-        FULLSTACK
+        FRONTEND = 'F',
+        BACKEND = 'B',
+        FULLSTACK = 'S'
     } prole;
     enum p_lang_back_end {
-        JAVA,
-        PHP,
-        RUBYONRAILS,
-        C,
-        CPP,
-        CSharp,
-        VB,
-        NODE
+        JAVA = 'J',
+        PHP = 'P',
+        RUBYONRAILS = 'R',
+        C = 'C',
+        CPP = '+',
+        CSharp = '#',
+        VB = 'V',
+        NODE = 'N'
     } pbacklang;
     enum p_lang_front_end {
-        JAVASCRIPT,
-        TYPESCRIPT,
-        ANGULAR,
-        REACT,
-        HTML5,
-        SASS,
-        CSS,
+        JAVASCRIPT = 'J',
+        TYPESCRIPT = 'T',
+        ANGULAR = 'A',
+        REACT = 'R',
+        HTML5 = 'H',
+        SASS = 'S',
+        CSS = 'C',
     } pfrontlang;
     enum p_operational_system {
-        WINDOWS,
-        LINUX,
-        MAC
+        WINDOWS = 'W',
+        LINUX = 'L',
+        MAC = 'M'
     } pos;
 private:
     int p_years_xp{};
     std::string role{};
     std::string p_lang{};
 public:
+    employee employee_acessor;
+
     void getProgrammer();
 
     void putProgrammer(std::string role, std::string p_lang, int p_years_xp);
@@ -75,6 +77,7 @@ public:
     programmer::p_operational_system &getProgrammerOperationalSystem();
 } pprogrammer;
 
+
 void programmer::putProgrammer(std::string role, std::string p_lang, int p_years_xp) {
     this->role = std::move(role);
     this->p_lang = std::move(p_lang);
@@ -82,9 +85,9 @@ void programmer::putProgrammer(std::string role, std::string p_lang, int p_years
 }
 
 void programmer::getProgrammer() {
-    printf("Employee Id=%s\n", this->role.c_str());
-    printf("Employee Name=%s\n", this->p_lang.c_str());
-    printf("Employee Salary=%d\n", this->p_years_xp);
+    printf("Employee Role=%s\n", this->role.c_str());
+    printf("Employee Program Language=%s\n", this->p_lang.c_str());
+    printf("Employee Years Of Experience=%d\n", this->p_years_xp);
 }
 
 programmer::p_lang_level &programmer::getProgrammerLevel() {

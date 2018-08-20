@@ -27,11 +27,28 @@ private:
 
 public:
     void putEmp(int id, char name[10], float basic);
+
     void putEmp(int id, int age, char gender[1], char ename[10], char elastname[10], char email[20], float salary);
+
     void getEmp();
+
     void getCompleteEmp();
 
-}pemp, aemp;
+    int &getEmpId();
+
+    int &getEmpAge();
+
+    char &getGender();
+
+    char &getEmpName();
+
+    char &getEmpLastName();
+
+    char &getEmail();
+
+    float &getSalary();
+
+} pemp, aemp;
 
 void employee::putEmp(int id, char *name, float basic) {
     this->empid = id;
@@ -49,10 +66,38 @@ void employee::putEmp(int id, int age, char *gender, char *name, char *lastname,
     this->salary = basic;
 }
 
+int &employee::getEmpId() {
+    return this->empid;
+}
+
+int &employee::getEmpAge() {
+    return this->age;
+}
+
+char &employee::getGender() {
+    return this->gender[0];
+}
+
+char &employee::getEmpName() {
+    return this->ename[0];
+}
+
+char &employee::getEmpLastName() {
+    return this->elastname[0];
+}
+
+char &employee::getEmail() {
+    return this->email[0];
+}
+
+float &employee::getSalary() {
+    return this->salary;
+}
+
 void employee::getEmp() {
     printf("Employee Id=%d\n", this->empid);
     printf("Employee Name=%s\n", this->ename);
-    printf("Employee Salary=%f\n",this->salary);
+    printf("Employee Salary=%f\n", this->salary);
 }
 
 void employee::getCompleteEmp() {
@@ -62,7 +107,7 @@ void employee::getCompleteEmp() {
     printf("Employee Name=%s\n", this->ename);
     printf("Employee Last Name=%s\n", this->elastname);
     printf("Employee Email=%s\n", this->email);
-    printf("Employee Salary=%f\n",this->salary);
+    printf("Employee Salary=%f\n", this->salary);
 }
 
 #endif //EMPLOY_EMPLOY_H
