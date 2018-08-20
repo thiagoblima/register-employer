@@ -38,13 +38,13 @@ public:
 
     int &getEmpAge();
 
-    char &getGender();
+    char *getGender();
 
-    char &getEmpName();
+    char *getEmpName();
 
-    char &getEmpLastName();
+    char *getEmpLastName();
 
-    char &getEmail();
+    char *getEmail();
 
     float &getSalary();
 
@@ -74,20 +74,20 @@ int &employee::getEmpAge() {
     return this->age;
 }
 
-char &employee::getGender() {
-    return this->gender[0];
+char *employee::getGender() {
+    return this->gender;
 }
 
-char &employee::getEmpName() {
-    return this->ename[0];
+char *employee::getEmpName() {
+    return this->ename;
 }
 
-char &employee::getEmpLastName() {
-    return this->elastname[0];
+char *employee::getEmpLastName() {
+        return this->elastname;
 }
 
-char &employee::getEmail() {
-    return this->email[0];
+char *employee::getEmail() {
+    return this->email;
 }
 
 float &employee::getSalary() {

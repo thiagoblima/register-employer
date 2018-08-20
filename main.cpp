@@ -27,12 +27,22 @@ int main() {
     cout << "#ENTER THE EMPLOYEE AGE:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getEmpAge();
+    cout << endl;
     cout << "#ENTER THE EMPLOYEE GENDER:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getGender();
+    cout << endl;
     cout << "#ENTER THE EMPLOYEE EMAIL:";
     getline(cin, mystr);
     (stringstream) mystr >> p->employee_acessor.getEmail();
-    
+    cout << endl;
+
+    p->employee_acessor.putEmp(100, p->employee_acessor.getEmpAge(), p->employee_acessor.getGender(),
+                               p->employee_acessor.getEmpName(), p->employee_acessor.getEmpLastName(),
+                               p->employee_acessor.getEmail(), 20.000);
+
+    p->employee_acessor.getCompleteEmp();
+
+
     return 0;
 }
