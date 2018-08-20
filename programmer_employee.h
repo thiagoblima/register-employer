@@ -19,19 +19,19 @@
 
 class programmer : employee {
 protected:
-    enum p_lang_level: char {
+    enum p_lang_level: unsigned char {
         junior = 'j',
         full = 'f',
         senior = 's',
         architect = 'a',
         engineer = 'e'
     } plevel;
-    enum p_lang_role {
+    enum p_lang_role: unsigned char {
         frontend = 'f',
         backend = 'b',
         fullstack = 's'
     } prole;
-    enum p_lang_back_end {
+    enum p_lang_back_end: unsigned char {
         java = 'j',
         php = 'p',
         ruby = 'r',
@@ -41,7 +41,7 @@ protected:
         vb = 'v',
         node = 'n'
     } pbacklang;
-    enum p_lang_front_end {
+    enum p_lang_front_end: unsigned char {
         javascript = 'j',
         typescript = 't',
         angular = 'a',
@@ -50,7 +50,7 @@ protected:
         sass = 's',
         css = 'c',
     } pfrontlang;
-    enum p_operational_system {
+    enum p_operational_system: unsigned char {
         windows = 'w',
         linux = 'l',
         macos = 'm'
@@ -66,15 +66,15 @@ public:
 
     void putProgrammer(std::string role, std::string p_lang, int p_years_xp);
 
-    programmer::p_lang_level &getProgrammerLevel();
+    unsigned char &getProgrammerLevel();
 
-    programmer::p_lang_role &getProgrammerRole();
+    unsigned char &getProgrammerRole();
 
-    programmer::p_lang_back_end &getProgrammerLangBackEnd();
+    unsigned char &getProgrammerLangBackEnd();
 
-    programmer::p_lang_front_end &getProgrammerLangFrontEnd();
+    unsigned char &getProgrammerLangFrontEnd();
 
-    programmer::p_operational_system &getProgrammerOperationalSystem();
+    unsigned char &getProgrammerOperationalSystem();
 } pprogrammer;
 
 
@@ -90,7 +90,7 @@ void programmer::getProgrammer() {
     printf("Employee Years Of Experience=%d\n", this->p_years_xp);
 }
 
-programmer::p_lang_level &programmer::getProgrammerLevel() {
+unsigned char &programmer::getProgrammerLevel() {
     char t = plevel;
     std::cout << "Enter the developer skill: ";
     std::cin >> t;
@@ -115,7 +115,7 @@ programmer::p_lang_level &programmer::getProgrammerLevel() {
     }
 }
 
-programmer::p_lang_role &programmer::getProgrammerRole() {
+unsigned char &programmer::getProgrammerRole() {
     char t = prole;
     std::cout << "Enter the developer role: ";
     std::cin >> t;
@@ -134,7 +134,7 @@ programmer::p_lang_role &programmer::getProgrammerRole() {
     }
 }
 
-programmer::p_lang_back_end &programmer::getProgrammerLangBackEnd() {
+unsigned char &programmer::getProgrammerLangBackEnd() {
     char t = pbacklang;
     std::cout << "Enter the developer back-end language: ";
     std::cin >> t;
@@ -168,7 +168,7 @@ programmer::p_lang_back_end &programmer::getProgrammerLangBackEnd() {
     }
 }
 
-programmer::p_lang_front_end &programmer::getProgrammerLangFrontEnd() {
+unsigned char &programmer::getProgrammerLangFrontEnd() {
     char t = pfrontlang;
     std::cout << "Enter the developer front-end language: ";
     std::cin >> t;
@@ -199,7 +199,7 @@ programmer::p_lang_front_end &programmer::getProgrammerLangFrontEnd() {
     }
 }
 
-programmer::p_operational_system &programmer::getProgrammerOperationalSystem() {
+unsigned char &programmer::getProgrammerOperationalSystem() {
     char t = pos;
     std::cout << "Enter the developer operational system preference: ";
     std::cin >> t;
