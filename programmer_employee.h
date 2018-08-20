@@ -62,6 +62,8 @@ private:
 public:
     employee employee_acessor;
 
+    void executeProgrammer();
+
     void getProgrammer();
 
     void putProgrammer(std::string role, std::string p_lang, int p_years_xp);
@@ -88,6 +90,14 @@ void programmer::getProgrammer() {
     printf("Employee Role=%s\n", this->role.c_str());
     printf("Employee Program Language=%s\n", this->p_lang.c_str());
     printf("Employee Years Of Experience=%d\n", this->p_years_xp);
+}
+
+void programmer::executeProgrammer() {
+    this->getProgrammerLevel();
+    this->getProgrammerRole();
+    this->getProgrammerLangBackEnd();
+    this->getProgrammerLangFrontEnd();
+    this->getProgrammerOperationalSystem();
 }
 
 unsigned char &programmer::getProgrammerLevel() {

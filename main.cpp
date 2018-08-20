@@ -41,11 +41,7 @@ int main() {
     cout << "### First stage completed (employee personal data) !   " << endl;
     cout << "### Stage two - Enter technical employee data as following ###" << endl << endl;
 
-    p->getProgrammerLevel();
-    p->getProgrammerRole();
-    p->getProgrammerLangBackEnd();
-    p->getProgrammerLangFrontEnd();
-    p->getProgrammerOperationalSystem();
+    p->executeProgrammer();
 
     cout << endl;
 
