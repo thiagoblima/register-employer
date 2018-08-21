@@ -64,6 +64,10 @@ public:
 
     void executeProgrammer();
 
+    void greetingsProgrammer();
+
+    void programmerSuccessSaved();
+
     void getProgrammer();
 
     void putProgrammer(std::string role, std::string p_lang, int p_years_xp);
@@ -79,7 +83,6 @@ public:
     unsigned char &getProgrammerOperationalSystem();
 } pprogrammer;
 
-
 void programmer::putProgrammer(std::string role, std::string p_lang, int p_years_xp) {
     this->role = std::move(role);
     this->p_lang = std::move(p_lang);
@@ -93,11 +96,22 @@ void programmer::getProgrammer() {
 }
 
 void programmer::executeProgrammer() {
+    this->greetingsProgrammer();
     this->getProgrammerLevel();
     this->getProgrammerRole();
     this->getProgrammerLangBackEnd();
     this->getProgrammerLangFrontEnd();
     this->getProgrammerOperationalSystem();
+    this->programmerSuccessSaved();
+}
+
+void programmer::greetingsProgrammer(){
+    std::cout << "### Stage two - Enter technical employee data as following ###" << std::endl << std::endl;
+}
+
+void programmer::programmerSuccessSaved() {
+    std::cout << std::endl << std::endl;
+    std::cout << "### Second stage completed (programmer professional data) !   " << std::endl << std::endl;
 }
 
 unsigned char &programmer::getProgrammerLevel() {

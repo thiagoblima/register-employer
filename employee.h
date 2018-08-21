@@ -26,6 +26,13 @@ private:
     float salary;
 
 public:
+
+    void executeEmp();
+
+    void greetingsEmp();
+
+    void empSuccessSaved();
+
     void putEmp(int id, char name[10], float basic);
 
     void putEmp(int id, int age, char gender[1], char ename[10], char elastname[10], char email[20], float salary);
@@ -38,13 +45,13 @@ public:
 
     int &getEmpAge();
 
-    char *getGender();
+    char *getEmpGender();
 
     char *getEmpName();
 
     char *getEmpLastName();
 
-    char *getEmail();
+    char *getEmpEmail();
 
     float &getSalary();
 
@@ -66,27 +73,67 @@ void employee::putEmp(int id, int age, char *gender, char *name, char *lastname,
     this->salary = basic;
 }
 
+void employee::executeEmp() {
+    this->greetingsEmp();
+    this->getEmpName();
+    this->getEmpLastName();
+    this->getEmpGender();
+    this->getEmpAge();
+    this->getEmpEmail();
+    this->empSuccessSaved();
+}
+
+void employee::greetingsEmp() {
+    std::cout << "### Employer Command Line Interface Tool ###" << std::endl << std::endl;
+    std::cout << "### Stage one - Enter personal employee data as following ###" << std::endl << std::endl;
+}
+
+void employee::empSuccessSaved() {
+    std::cout << std::endl << std::endl;
+    std::cout << "### First stage completed (employee personal data) !   " << std::endl << std::endl;
+}
+
 int &employee::getEmpId() {
     return this->empid;
 }
 
 int &employee::getEmpAge() {
+    std::string mystr;
+    std::cout << "# - Enter the employee age:";
+    getline(std::cin, mystr);
+    (std::stringstream) mystr >> this->age;
     return this->age;
 }
 
-char *employee::getGender() {
+char *employee::getEmpGender() {
+    std::string mystr;
+    std::cout << "# - Enter the employee gender:";
+    getline(std::cin, mystr);
+    (std::stringstream) mystr >> this->gender;
     return this->gender;
 }
 
 char *employee::getEmpName() {
+    std::string mystr;
+    std::cout << "# - Enter the employee name:";
+    getline(std::cin, mystr);
+    (std::stringstream) mystr >> this->ename;
     return this->ename;
 }
 
 char *employee::getEmpLastName() {
-        return this->elastname;
+    std::string mystr;
+    std::cout << "# - Enter the employee last name:";
+    getline(std::cin, mystr);
+    (std::stringstream) mystr >> this->elastname;
+    return this->elastname;
 }
 
-char *employee::getEmail() {
+char *employee::getEmpEmail() {
+    std::string mystr;
+    std::cout << "# - Enter the employee email:";
+    getline(std::cin, mystr);
+    (std::stringstream) mystr >> this->email;
     return this->email;
 }
 
