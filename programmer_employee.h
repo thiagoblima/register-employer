@@ -136,6 +136,7 @@ unsigned char &programmer::getProgrammerLevel() {
             break;
         default:
             std::cout << "you MUST select a programmer level\n";
+            this->getProgrammerLevel();
     }
 }
 
@@ -169,7 +170,7 @@ unsigned char &programmer::getProgrammerLangBackEnd() {
         case programmer::p_lang_back_end::php             :
             std::cout << t << " - PHP dev \n";
             break;
-        case programmer::p_lang_back_end::ruby  :
+        case programmer::p_lang_back_end::ruby            :
             std::cout << t << " - Ruby On Rails dev \n";
             break;
         case programmer::p_lang_back_end::c               :
