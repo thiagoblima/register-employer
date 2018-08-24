@@ -19,13 +19,27 @@ class employee {
 private:
     int empid;
     int age;
-    char gender[1];
+    char gender[10];
     char ename[10];
     char elastname[10];
     char email[20];
     float salary;
 
 public:
+
+    int &getEmpIdInstance();
+
+    int &getAgeInstance();
+
+    char *getGenderInstance();
+
+    char *getENameInstance();
+
+    char *getELastNameInstance();
+
+    char *getEmailInstance();
+
+    float &getSalaryInstance();
 
     void executeEmp();
 
@@ -56,6 +70,34 @@ public:
     float &getSalary();
 
 } pemp, aemp;
+
+int &employee::getEmpIdInstance() {
+    return this->empid;
+}
+
+int &employee::getAgeInstance() {
+    return this->age;
+}
+
+char *employee::getGenderInstance() {
+    return this->gender;
+}
+
+char *employee::getENameInstance() {
+    return this->ename;
+}
+
+char *employee::getELastNameInstance() {
+    return this->elastname;
+}
+
+char *employee::getEmailInstance() {
+    return this->email;
+}
+
+float &employee::getSalaryInstance() {
+    return this->salary;
+}
 
 void employee::putEmp(int id, char *name, float basic) {
     this->empid = id;
@@ -140,7 +182,7 @@ char *employee::getEmpEmail() {
 float &employee::getSalary() {
     return this->salary;
 }
-
+;
 void employee::getEmp() {
     printf("Employee Id=%d\n", this->empid);
     printf("Employee Name=%s\n", this->ename);

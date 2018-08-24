@@ -58,23 +58,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2519" />
-          <entry key="h" value="7038" />
+          <entry key="cpp" value="2597" />
+          <entry key="h" value="7773" />
+          <entry key="mm" value="9" />
           <entry key="txt" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="12" />
-          <entry key="ObjectiveC" value="9545" />
+          <entry key="ObjectiveC" value="10367" />
           <entry key="PLAIN_TEXT" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Employ (disassembly)" value="2" />
+          <entry key="Employ (disassembly)" value="3" />
           <entry key="Makefile" value="1" />
-          <entry key="c" value="2" />
+          <entry key="c" value="3" />
           <entry key="cc" value="1" />
           <entry key="cpp" value="1" />
           <entry key="doxygen" value="2" />
@@ -84,9 +85,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Disassembly" value="2" />
+          <entry key="Disassembly" value="3" />
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="7" />
+          <entry key="ObjectiveC" value="8" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -103,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="306">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -115,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programmer_employee.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="188" column="18" lean-forward="true" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
               <folding>
                 <element signature="e#248#266#0" expanded="true" />
               </folding>
@@ -124,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employee.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="230">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
                 <element signature="e#268#287#0" expanded="true" />
               </folding>
@@ -136,23 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/winsup/cygwin/dcrt0.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15062">
-              <caret line="1032" column="12" lean-forward="true" selection-start-line="1032" selection-start-column="12" selection-end-line="1032" selection-end-column="12" />
-              <folding>
-                <element signature="e#29027#29095#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/newlib/libc/string/strcpy.c">
+        <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/newlib/libc/stdio/printf.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="328">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -171,6 +160,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getProgrammerLevel</find>
+      <find>getEmpName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,9 +171,9 @@
       <list>
         <option value="$PROJECT_DIR$/employ.h" />
         <option value="$PROJECT_DIR$/employer.h" />
-        <option value="$PROJECT_DIR$/employee.h" />
         <option value="$PROJECT_DIR$/programmer_employee.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/employee.h" />
       </list>
     </option>
   </component>
@@ -241,8 +231,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Employ">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Employ" TARGET_NAME="Employ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Employ" RUN_TARGET_NAME="Employ">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -270,12 +260,12 @@
       <workItem from="1534551787511" duration="9563000" />
       <workItem from="1534669205888" duration="26768000" />
       <workItem from="1534734202696" duration="1499000" />
-      <workItem from="1534804011469" duration="10034000" />
+      <workItem from="1534804011469" duration="19876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47864000" />
+    <option name="totallyTimeSpent" value="57706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,8 +285,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3035343" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.112266116" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30769232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47921" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
@@ -345,16 +335,14 @@
     <MESSAGE value="Changing the name of the class for better code comprehension to emp entity" />
     <option name="LAST_COMMIT_MESSAGE" value="Changing the name of the class for better code comprehension to emp entity" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>ename</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.cpp">
@@ -380,13 +368,6 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/newlib/libc/string/strcpy.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -401,42 +382,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/newlib/libc/string/strcpy.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="1445">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/winsup/cygwin/dcrt0.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16643">
+          <caret line="1032" column="12" lean-forward="true" selection-start-line="1032" selection-start-column="12" selection-end-line="1032" selection-end-column="12" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#29027#29095#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/newlib/libc/stdio/printf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/programmer_employee.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="188" column="18" lean-forward="true" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
           <folding>
             <element signature="e#248#266#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <element signature="e#268#287#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/cygwin64/usr/src/debug/cygwin-2.10.0-1/winsup/cygwin/dcrt0.cc">
+    <entry file="file://$PROJECT_DIR$/employee.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15062">
-          <caret line="1032" column="12" lean-forward="true" selection-start-line="1032" selection-start-column="12" selection-end-line="1032" selection-end-column="12" />
+        <state relative-caret-position="230">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
-            <element signature="e#29027#29095#0" expanded="true" />
+            <element signature="e#268#287#0" expanded="true" />
           </folding>
         </state>
       </provider>

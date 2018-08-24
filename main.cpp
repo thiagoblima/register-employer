@@ -15,11 +15,10 @@ int main() {
     p->employee_acessor.executeEmp();
     p->executeProgrammer();
 
-    p->employee_acessor.putEmp(100, p->employee_acessor.getEmpAge(), p->employee_acessor.getEmpGender(),
-                               p->employee_acessor.getEmpName(), p->employee_acessor.getEmpLastName(),
-                               p->employee_acessor.getEmpEmail(), 20.000);
+    p->employee_acessor.putEmp(100, p->employee_acessor.getAgeInstance(), p->employee_acessor.getGenderInstance(),
+                               p->employee_acessor.getENameInstance(), p->employee_acessor.getELastNameInstance(),
+                               p->employee_acessor.getEmailInstance(), 20.000);
 
     p->employee_acessor.getCompleteEmp();
-
     return 0;
 }
