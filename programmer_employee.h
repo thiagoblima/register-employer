@@ -156,6 +156,7 @@ unsigned char &programmer::getProgrammerRole() {
             break;
         default:
             std::cout << "you MUST select a programmer role\n";
+            this->getProgrammerRole();
     }
 }
 
@@ -190,6 +191,7 @@ unsigned char &programmer::getProgrammerLangBackEnd() {
             break;
         default:
             std::cout << "you MUST select a programmer back-end language\n";
+            this->getProgrammerLangBackEnd();
     }
 }
 
@@ -221,6 +223,7 @@ unsigned char &programmer::getProgrammerLangFrontEnd() {
             break;
         default:
             std::cout << "you MUST select a programmer front-end language\n";
+            this->getProgrammerLangFrontEnd();
     }
 }
 
@@ -240,6 +243,7 @@ unsigned char &programmer::getProgrammerOperationalSystem() {
             break;
         default:
             std::cout << "you MUST select a programmer OS preference \n";
+            this->getProgrammerOperationalSystem();
     }
 }
 
