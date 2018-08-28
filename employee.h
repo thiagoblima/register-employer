@@ -144,7 +144,7 @@ int &employee::getEmpAge() {
     std::cout << "# - Enter the employee age:";
     getline(std::cin, mystr);
     (std::stringstream) mystr >> this->age;
-    if(!this->age) std::cout << "Enter a valid age" << this->getEmpAge();
+    if (!this->age) std::cout << "Enter a valid age" << std::endl << this->getEmpAge();
     return this->age;
 }
 
@@ -153,6 +153,9 @@ char *employee::getEmpGender() {
     std::cout << "# - Enter the employee gender:";
     getline(std::cin, mystr);
     (std::stringstream) mystr >> this->gender;
+    if ((*this->gender == 0) || (isdigit(this->gender[0])))
+        std::cout << "Gender can't be null and neither a digit, please enter a valid gender" << std::endl
+                  << this->getEmpGender();
     return this->gender;
 }
 
@@ -182,8 +185,8 @@ char *employee::getEmpEmail() {
 
 float &employee::getSalary() {
     return this->salary;
-}
-;
+};
+
 void employee::getEmp() {
     printf("Employee Id=%d\n", this->empid);
     printf("Employee Name=%s\n", this->ename);
