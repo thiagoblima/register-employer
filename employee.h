@@ -144,7 +144,8 @@ int &employee::getEmpAge() {
     std::cout << "# - Enter the employee age:";
     getline(std::cin, mystr);
     (std::stringstream) mystr >> this->age;
-    if (!this->age) std::cout << "Enter a valid age" << std::endl << this->getEmpAge();
+    if (!this->age)
+        std::cout << "Age can't be null and neither a text, please enter a valid age" << std::endl << this->getEmpAge();
     return this->age;
 }
 
