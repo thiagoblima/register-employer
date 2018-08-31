@@ -165,6 +165,9 @@ char *employee::getEmpName() {
     std::cout << "# - Enter the employee name:";
     getline(std::cin, mystr);
     (std::stringstream) mystr >> this->ename;
+    if ((*this->ename == 0) || (isdigit(this->ename[0])))
+        std::cout << "Name can't be null and neither a digit, please enter a valid name" << std::endl
+                  << this->getEmpName();
     return this->ename;
 }
 
@@ -173,6 +176,9 @@ char *employee::getEmpLastName() {
     std::cout << "# - Enter the employee last name:";
     getline(std::cin, mystr);
     (std::stringstream) mystr >> this->elastname;
+    if ((*this->elastname == 0) || (isdigit(this->elastname[0])))
+        std::cout << "Last name can't be null and neither a digit, please enter a valid last name" << std::endl
+                  << this->getEmpLastName();
     return this->elastname;
 }
 
@@ -181,6 +187,9 @@ char *employee::getEmpEmail() {
     std::cout << "# - Enter the employee email:";
     getline(std::cin, mystr);
     (std::stringstream) mystr >> this->email;
+    if ((*this->email == 0) || (isdigit(this->email[0])))
+        std::cout << "Last name can't be null and neither a digit, please enter a valid email" << std::endl
+                  << this->getEmpEmail();
     return this->email;
 }
 
