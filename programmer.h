@@ -5,8 +5,8 @@
  * the programmer's behavior.
  */
 
-#ifndef EMPLOY_PROGRAMMER_EMPLOYEE_H
-#define EMPLOY_PROGRAMMER_EMPLOYEE_H
+#ifndef EMPLOY_PROGRAMMER_H
+#define EMPLOY_PROGRAMMER_H
 
 #include <utility>
 #include <string>
@@ -248,4 +248,4 @@ unsigned char &programmer::getProgrammerOperationalSystem() {
 }
 
 
-#endif //EMPLOY_PROGRAMMER_EMPLOYEE_H
+#endif //EMPLOY_PROGRAMMER_H
