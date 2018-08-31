@@ -5,7 +5,6 @@
  * using <employ> object as model to be inherited
  * or polymorphically mutated in order to attend
  * all the circumstances of its usage.
- *
  */
 
 #include <string.h>
