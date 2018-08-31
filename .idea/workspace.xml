@@ -34,10 +34,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680647d2-8821-4749-81c5-73aea15cb482" name="Default Changelist" comment="Changing the name of the class for better code comprehension to emp entity">
-      <change afterPath="$PROJECT_DIR$/languages.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee.h" beforeDir="false" afterPath="$PROJECT_DIR$/employee.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages.h" beforeDir="false" afterPath="$PROJECT_DIR$/languages.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programmer.h" beforeDir="false" afterPath="$PROJECT_DIR$/programmer.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -72,8 +71,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2597" />
-          <entry key="h" value="10388" />
+          <entry key="cpp" value="2598" />
+          <entry key="h" value="10555" />
           <entry key="mm" value="9" />
           <entry key="txt" value="250" />
         </counts>
@@ -82,7 +81,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Doxygen file" value="12" />
-          <entry key="ObjectiveC" value="12982" />
+          <entry key="ObjectiveC" value="13150" />
           <entry key="PLAIN_TEXT" value="249" />
         </counts>
       </usages-collector>
@@ -125,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -134,13 +133,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/programmer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+            <state relative-caret-position="312">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
-                <element signature="e#230#248#0" expanded="true" />
+                <element signature="e#230#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="476">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#268#287#0" expanded="true" />
               </folding>
@@ -158,14 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/languages.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
-              <folding>
-                <element signature="e#321#339#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-45">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -186,12 +182,12 @@
       <list>
         <option value="$PROJECT_DIR$/employ.h" />
         <option value="$PROJECT_DIR$/employer.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/programmer_employee.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/employee.h" />
-        <option value="$PROJECT_DIR$/programmer.h" />
         <option value="$PROJECT_DIR$/languages.h" />
+        <option value="$PROJECT_DIR$/programmer.h" />
       </list>
     </option>
   </component>
@@ -299,12 +295,12 @@
       <workItem from="1535424106137" duration="71000" />
       <workItem from="1535424838763" duration="3134000" />
       <workItem from="1535587259907" duration="314000" />
-      <workItem from="1535587661375" duration="5290000" />
+      <workItem from="1535587661375" duration="6828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75122000" />
+    <option name="totallyTimeSpent" value="76660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +320,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49724063" weight="0.30769232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49724063" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47921" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -454,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -464,30 +460,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employee.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="476">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#268#287#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programmer.h">
+    <entry file="file://$PROJECT_DIR$/languages.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
-          <folding>
-            <element signature="e#230#248#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-45">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages.h">
+    <entry file="file://$PROJECT_DIR$/programmer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        <state relative-caret-position="312">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
-            <element signature="e#321#339#0" expanded="true" />
+            <element signature="e#230#251#0" expanded="true" />
           </folding>
         </state>
       </provider>

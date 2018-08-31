@@ -2,21 +2,15 @@
  * @author: <thiagolimasp@live.com> - Thiago Lima
  * @class: languages
  * @description: Main class, data structure for
- * using <employ> object as model to be inherited
+ * using <languages> object as model to be inherited
  * or polymorphically mutated in order to attend
  * all the circumstances of its usage.
  */
 
+#include <iostream>
+
 #ifndef EMPLOY_LANGUAGES_H
 #define EMPLOY_LANGUAGES_H
-
-#include <utility>
-#include <string>
-#include <cstring>
-#include <cstdio>
-#include <iomanip>
-#include <istream>
-#include <iostream>
 
 
 class languages {
@@ -58,6 +52,9 @@ protected:
         macos = 'm'
     } pos;
 public:
+
+    languages() = default;
+
     unsigned char &getProgrammerLevel();
 
     unsigned char &getProgrammerRole();
@@ -67,7 +64,7 @@ public:
     unsigned char &getProgrammerLangFrontEnd();
 
     unsigned char &getProgrammerOperationalSystem();
-}languagesp;
+};
 
 unsigned char &languages::getProgrammerLevel() {
     char t = plevel;

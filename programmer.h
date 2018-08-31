@@ -1,20 +1,13 @@
 /**
  * @author: <thiagolimasp@live.com> - Thiago Lima
- * @class: programmer_employee
- * @description: Programmer employee class to define
- * the programmer's behavior.
+ * @class: programmer
+ * @description: Programmer class to define
+ * the programmer behavior through the program.
  */
 
 #ifndef EMPLOY_PROGRAMMER_H
 #define EMPLOY_PROGRAMMER_H
 
-#include <utility>
-#include <string>
-#include <cstring>
-#include <cstdio>
-#include <iomanip>
-#include <istream>
-#include <iostream>
 #include "employee.h"
 #include "languages.h"
 
@@ -27,6 +20,8 @@ private:
 public:
     employee employee_acessor;
     languages languages_acessor;
+
+    programmer() = default;
 
     void executeProgrammer();
 
@@ -70,7 +65,5 @@ void programmer::programmerSuccessSaved() {
     std::cout << std::endl << std::endl;
     std::cout << "### Second stage completed (programmer professional data) !   " << std::endl << std::endl;
 }
-
-
 
 #endif //EMPLOY_PROGRAMMER_H

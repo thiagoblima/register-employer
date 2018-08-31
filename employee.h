@@ -26,6 +26,8 @@ private:
 
 public:
 
+    employee() = default;
+
     int &getEmpIdInstance();
 
     int &getAgeInstance();
