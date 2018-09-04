@@ -11,7 +11,7 @@
 #include "employee.h"
 #include "languages.h"
 
-class programmer : employee {
+class programmer : languages {
 
 private:
     int p_years_xp{};
@@ -49,11 +49,11 @@ void programmer::getProgrammer() {
 
 void programmer::executeProgrammer() {
     this->greetingsProgrammer();
-    this->languages_acessor.getProgrammerLevel();
-    this->languages_acessor.getProgrammerRole();
-    this->languages_acessor.getProgrammerLangBackEnd();
-    this->languages_acessor.getProgrammerLangFrontEnd();
-    this->languages_acessor.getProgrammerOperationalSystem();
+    this->getProgrammerLevel();
+    this->getProgrammerRole();
+    this->getProgrammerLangBackEnd();
+    this->getProgrammerLangFrontEnd();
+    this->getProgrammerOperationalSystem();
     this->programmerSuccessSaved();
 }
 
