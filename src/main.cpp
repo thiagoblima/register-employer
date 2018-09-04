@@ -2,9 +2,9 @@
 #include <string.h>
 #include <string>
 #include <sstream>
-#include "conio.h"
-#include "employee.h"
-#include "programmer.h"
+#include "../lib/conio.h"
+#include "../include/employee.h"
+#include "../include/programmer.h"
 
 using namespace std;
 
