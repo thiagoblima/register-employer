@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <string>
+#include <stdlib.h>
 #include <sstream>
 #include "../lib/conio.h"
 #include "../include/employee.h"
@@ -12,6 +13,8 @@ int main() {
     programmer *p;
     p = &pprogrammer;
 
+    system("clear");
+
     p->employee_acessor.executeEmp();
     p->executeProgrammer();
 
@@ -20,5 +23,9 @@ int main() {
                                p->employee_acessor.getEmailInstance(), 20.000);
 
     p->employee_acessor.getCompleteEmp();
+
+    delete p;
+    system("getch");
+
     return 0;
 }

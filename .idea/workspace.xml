@@ -34,15 +34,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680647d2-8821-4749-81c5-73aea15cb482" name="Default Changelist" comment="Changing the name of the class for better code comprehension to emp entity">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Samsung.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Samsung.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conio.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/conio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conio.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/conio.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/employee.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/languages.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libconio.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/libconio.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmer.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/programmer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,28 +50,30 @@
     <session id="-406649993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.171" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="7" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2612" />
+          <entry key="cpp" value="2854" />
           <entry key="h" value="10590" />
           <entry key="mm" value="9" />
           <entry key="txt" value="250" />
@@ -87,12 +83,13 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Doxygen file" value="12" />
-          <entry key="ObjectiveC" value="13199" />
+          <entry key="ObjectiveC" value="13441" />
           <entry key="PLAIN_TEXT" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Build All (disassembly)" value="1" />
           <entry key="Employ (disassembly)" value="3" />
           <entry key="Makefile" value="2" />
           <entry key="c" value="4" />
@@ -107,7 +104,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Disassembly" value="3" />
+          <entry key="Disassembly" value="4" />
           <entry key="Doxygen file" value="2" />
           <entry key="ObjectiveC" value="11" />
           <entry key="PLAIN_TEXT" value="5" />
@@ -127,11 +124,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,16 +139,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/conio.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1972">
+            <state relative-caret-position="2074">
               <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/conio.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="119">
               <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
@@ -157,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/programmer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="-170">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#230#251#0" expanded="true" />
               </folding>
@@ -212,8 +212,8 @@
         <option value="$PROJECT_DIR$/src/headers/programmer.h" />
         <option value="$PROJECT_DIR$/src/libs/conio.c" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/lib/conio.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
       </list>
     </option>
   </component>
@@ -242,6 +242,16 @@
             <path>
               <item name="Employ" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Employ" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lib" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Employ" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -340,12 +350,14 @@
       <workItem from="1535424838763" duration="3134000" />
       <workItem from="1535587259907" duration="314000" />
       <workItem from="1535587661375" duration="7340000" />
-      <workItem from="1536022246166" duration="7302000" />
+      <workItem from="1536022246166" duration="7904000" />
+      <workItem from="1537408963103" duration="222000" />
+      <workItem from="1537409623519" duration="3196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84474000" />
+    <option name="totallyTimeSpent" value="88494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,19 +372,19 @@
     <frame x="-8" y="-8" width="1872" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32505518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33278146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49724063" weight="0.30769232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49724063" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47921" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="8" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.49779248" visible="true" weight="0.29417878" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49779248" weight="0.29417878" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32952183" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5027594" side_tool="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32952183" />
@@ -483,6 +495,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conio.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/employee.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -500,10 +519,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/conio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/programmer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="-170">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="e#230#251#0" expanded="true" />
           </folding>
@@ -512,22 +538,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/conio.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/conio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
