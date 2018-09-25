@@ -13,9 +13,6 @@ int main() {
     programmer *p;
     p = &pprogrammer;
 
-    languages *l;
-    l = &planguages;
-
     system("clear");
 
     p->employee_acessor.executeEmp();
