@@ -14,7 +14,7 @@
 #define EMPLOY_LANGUAGES_H
 
 
-class languages  {
+class languages {
 protected:
     enum p_lang_level : unsigned char {
         junior = 'j',
@@ -59,12 +59,12 @@ protected:
         asalary = static_cast<char>(120.000),
         esalary = static_cast<char>(120.000)
 
-    }p_o_salary;
+    } p_o_salary;
     enum l_overall_language_salary : int {
         fesalary = static_cast<char>(20.000),
         besalary = static_cast<char>(20.000),
         fssalary = static_cast<char>(40.000),
-    }l_o_salary;
+    } l_o_salary;
     enum b_overall_language_salary : int {
         vbsalary = static_cast<char>(0.800),
         rusalary = static_cast<char>(1.500),
@@ -75,7 +75,7 @@ protected:
         clsalary = static_cast<char>(7.800),
         cpsalary = static_cast<char>(7.800)
 
-    }l_o_be;
+    } l_o_be;
     enum f_overall_language_salary : int {
         angsalary = static_cast<char>(16.000),
         reasalary = static_cast<char>(16.000),
@@ -84,10 +84,11 @@ protected:
         htmsalary = static_cast<char>(5.000),
         sassalary = static_cast<char>(4.000),
         csssalary = static_cast<char>(3.000)
-    }l_f_salary;
+    } l_f_salary;
 public:
 
     languages() = default;
+
     employee employee_acessor;
 
     unsigned char &getProgrammerLevel();
@@ -99,7 +100,7 @@ public:
     unsigned char &getProgrammerLangFrontEnd();
 
     unsigned char &getProgrammerOperationalSystem();
-}planguages;
+} planguages;
 
 unsigned char &languages::getProgrammerLevel() {
     char t = plevel;
@@ -160,7 +161,7 @@ unsigned char &languages::getProgrammerRole() {
             std::cout << t << " - Fullstack dev \n";
             this->employee_acessor.getSalaryInstance() += languages::fssalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t  << " - Front-end dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Front-end dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         default:
             std::cout << "you MUST select a programmer role\n";
