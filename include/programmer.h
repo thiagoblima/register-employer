@@ -11,15 +11,16 @@
 #include "employee.h"
 #include "languages.h"
 
-class programmer : languages {
+class programmer {
 
 private:
     int p_years_xp{};
     std::string role{};
     std::string p_lang{};
 public:
+
     employee employee_acessor;
-    languages languages_acessor;
+    languages language_acessor;
 
     programmer() = default;
 
@@ -49,11 +50,11 @@ void programmer::getProgrammer() {
 
 void programmer::executeProgrammer() {
     this->greetingsProgrammer();
-    this->getProgrammerLevel();
-    this->getProgrammerRole();
-    this->getProgrammerLangBackEnd();
-    this->getProgrammerLangFrontEnd();
-    this->getProgrammerOperationalSystem();
+    this->language_acessor.getProgrammerLevel();
+    this->language_acessor.getProgrammerRole();
+    this->language_acessor.getProgrammerLangBackEnd();
+    this->language_acessor.getProgrammerLangFrontEnd();
+    this->language_acessor.getProgrammerOperationalSystem();
     this->programmerSuccessSaved();
 }
 

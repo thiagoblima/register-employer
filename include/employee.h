@@ -40,6 +40,8 @@ public:
 
     char *getEmailInstance();
 
+    float *setSalary(float basic);
+
     float &getSalaryInstance();
 
     void executeEmp();
@@ -94,6 +96,10 @@ char *employee::getELastNameInstance() {
 
 char *employee::getEmailInstance() {
     return this->email;
+}
+
+float *employee::setSalary(float basic) {
+    this->salary = basic;
 }
 
 float &employee::getSalaryInstance() {
@@ -211,7 +217,7 @@ void employee::getCompleteEmp() {
     printf("Employee Name=%s\n", this->ename);
     printf("Employee Last Name=%s\n", this->elastname);
     printf("Employee Email=%s\n", this->email);
-    printf("Employee Salary=%f\n", this->salary);
+    printf("Employee Salary=%f\n", this->getSalaryInstance());
 }
 
 #endif //EMPLOY_EMPLOY_H
