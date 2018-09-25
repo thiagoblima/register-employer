@@ -149,7 +149,6 @@ unsigned char &languages::getProgrammerRole() {
             this->employee_acessor.getSalaryInstance() += languages::fesalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
             std::cout << t << " - Front-end dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
-
             break;
         case languages::p_lang_role::backend            :
             std::cout << t << " - BackEnd dev \n";
