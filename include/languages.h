@@ -109,29 +109,28 @@ unsigned char &languages::getProgrammerLevel() {
     switch (t) {
         case languages::p_lang_level::junior            :
             std::cout << t << " - Junior dev \n";
-            this->employee_acessor.getSalaryInstance();
-            this->employee_acessor.getSalaryInstance();
-            std::cout << " - Junior dev salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            this->employee_acessor.setSalary(languages::jsalary);
+            std::cout << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_level::full              :
             std::cout << t << " - Full dev \n";
             this->employee_acessor.setSalary(languages::fsalary);
-            std::cout << " - Full dev salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_level::senior            :
             std::cout << t << " - Senior dev \n";
             this->employee_acessor.setSalary(languages::ssalary);
-            std::cout << " - Senior dev salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_level::architect         :
             std::cout << t << " - Architect dev \n";
             this->employee_acessor.setSalary(languages::asalary);
-            std::cout << " - Architect dev salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_level::engineer          :
             std::cout << t << " - Engineer dev \n";
             this->employee_acessor.setSalary(languages::esalary);
-            std::cout << " - Engineer dev salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         default:
             std::cout << "you MUST select a programmer level\n";
@@ -148,19 +147,19 @@ unsigned char &languages::getProgrammerRole() {
             std::cout << t << " - FrontEnd dev \n";
             this->employee_acessor.getSalaryInstance() += languages::fesalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - Front-end dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_role::backend            :
             std::cout << t << " - BackEnd dev \n";
             this->employee_acessor.getSalaryInstance() += languages::besalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - Back-end dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_role::fullstack          :
             std::cout << t << " - Fullstack dev \n";
             this->employee_acessor.getSalaryInstance() += languages::fssalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - Front-end dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         default:
             std::cout << "you MUST select a programmer role\n";
@@ -177,48 +176,49 @@ unsigned char &languages::getProgrammerLangBackEnd() {
             std::cout << t << " - Java dev \n";
             this->employee_acessor.getSalaryInstance() += languages::jvsalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - Java dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_back_end::php             :
             std::cout << t << " - PHP dev \n";
             this->employee_acessor.getSalaryInstance() += languages::phsalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - PHP dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_back_end::ruby            :
             std::cout << t << " - Ruby On Rails dev \n";
             this->employee_acessor.getSalaryInstance() += languages::rusalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - Ruby dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_back_end::c               :
             std::cout << t << " - C dev \n";
             this->employee_acessor.getSalaryInstance() += languages::clsalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - C dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_back_end::cpp             :
+            std::cout << t << " - C++ dev \n";
             this->employee_acessor.getSalaryInstance() += languages::cpsalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - C++ dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_back_end::csharp          :
             std::cout << t << " - C# dev \n";
             this->employee_acessor.getSalaryInstance() += languages::cssalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - C# dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_back_end::vb              :
             std::cout << t << " - VB dev \n";
             this->employee_acessor.getSalaryInstance() += languages::vbsalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - VB dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         case languages::p_lang_back_end::node            :
             std::cout << t << " - Nodejs dev \n";
             this->employee_acessor.getSalaryInstance() += languages::ndsalary;
             this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
-            std::cout << t << " - Nodejs dev: " << this->employee_acessor.getSalaryInstance() << std::endl;
+            std::cout << t << " - Updated salary: " << this->employee_acessor.getSalaryInstance() << std::endl;
             break;
         default:
             std::cout << "you MUST select a programmer back-end language\n";
@@ -232,25 +232,46 @@ unsigned char &languages::getProgrammerLangFrontEnd() {
     std::cin >> t;
     switch (t) {
         case languages::p_lang_front_end::javascript     :
-            std::cout << t << " - JavaScript dev \n";
+            std::cout << t << " - Java Script dev \n";
+            this->employee_acessor.getSalaryInstance() += languages::jscsalary;
+            this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
+            std::cout << t << " - Updated salary: \n";
             break;
         case languages::p_lang_front_end::typescript     :
             std::cout << t << " - TypeScript dev \n";
+            this->employee_acessor.getSalaryInstance() += languages::tscsalary;
+            this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
+            std::cout << t << " - Updated salary: \n";
             break;
         case languages::p_lang_front_end::angular        :
             std::cout << t << " - Angular dev \n";
+            this->employee_acessor.getSalaryInstance() += languages::angsalary;
+            this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
+            std::cout << t << " - Updated salary: \n";
             break;
         case languages::p_lang_front_end::react          :
             std::cout << t << " - React dev \n";
+            this->employee_acessor.getSalaryInstance() += languages::reasalary;
+            this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
+            std::cout << t << " - Updated salary: \n";
             break;
         case languages::p_lang_front_end::html           :
             std::cout << t << " - HTML5 dev \n";
+            this->employee_acessor.getSalaryInstance() += languages::htmsalary;
+            this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
+            std::cout << t << " - Updated salary: \n";
             break;
         case languages::p_lang_front_end::sass           :
             std::cout << t << " - SASS dev \n";
+            this->employee_acessor.getSalaryInstance() += languages::sassalary;
+            this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
+            std::cout << t << " - Updated salary: \n";
             break;
         case languages::p_lang_front_end::css            :
             std::cout << t << " - CSS dev \n";
+            this->employee_acessor.getSalaryInstance() += languages::csssalary;
+            this->employee_acessor.setSalary(this->employee_acessor.getSalaryInstance());
+            std::cout << t << " - Updated salary: \n";
             break;
         default:
             std::cout << "you MUST select a programmer front-end language\n";
