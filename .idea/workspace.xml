@@ -33,11 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680647d2-8821-4749-81c5-73aea15cb482" name="Default Changelist" comment="Changing the name of the class for better code comprehension to emp entity">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Samsung.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Samsung.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/languages.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/languages.h" afterDir="false" />
-    </list>
+    <list default="true" id="680647d2-8821-4749-81c5-73aea15cb482" name="Default Changelist" comment="Changing the name of the class for better code comprehension to emp entity" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +46,7 @@
     <session id="-406649993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -93,7 +89,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Build All (disassembly)" value="1" />
+          <entry key="Build All (disassembly)" value="2" />
           <entry key="Employ (disassembly)" value="3" />
           <entry key="Makefile" value="2" />
           <entry key="c" value="4" />
@@ -108,7 +104,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Disassembly" value="4" />
+          <entry key="Disassembly" value="5" />
           <entry key="Doxygen file" value="2" />
           <entry key="ObjectiveC" value="11" />
           <entry key="PLAIN_TEXT" value="6" />
@@ -161,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/programmer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
+            <state relative-caret-position="306">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#230#251#0" expanded="true" />
@@ -182,20 +178,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/employee.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
+            <state relative-caret-position="3281">
               <caret line="194" column="29" lean-forward="true" selection-start-line="194" selection-start-column="29" selection-end-line="194" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/languages.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#269#288#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="mock:///Build All (disassembly)">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -243,7 +248,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -377,12 +382,12 @@
       <workItem from="1537715918184" duration="434000" />
       <workItem from="1537716407941" duration="17425000" />
       <workItem from="1537841074578" duration="5686000" />
-      <workItem from="1538616890281" duration="3191000" />
+      <workItem from="1538616890281" duration="4358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120556000" />
+    <option name="totallyTimeSpent" value="121723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,24 +399,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1872" height="1096" extended-state="6" />
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49625188" visible="true" weight="0.21247241" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49625188" visible="true" weight="0.28731343" />
       <window_info id="Structure" order="1" sideWeight="0.5036819" side_tool="true" weight="0.20805739" />
       <window_info id="Favorites" order="2" sideWeight="0.5037481" side_tool="true" weight="0.20805739" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4928256" visible="true" weight="0.37006238" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47921" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4928256" weight="0.37006238" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925372" weight="0.53233254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49337748" weight="0.29417878" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4928256" weight="0.29417878" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32952183" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5071744" side_tool="true" visible="true" weight="0.37006238" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" visible="true" weight="0.29330254" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32952183" />
       <window_info anchor="bottom" id="CMake" order="13" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -543,14 +548,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/employee.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
+        <state relative-caret-position="3281">
           <caret line="194" column="29" lean-forward="true" selection-start-line="194" selection-start-column="29" selection-end-line="194" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/programmer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
+        <state relative-caret-position="306">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#230#251#0" expanded="true" />
@@ -560,8 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/languages.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#269#288#0" expanded="true" />
           </folding>

@@ -1,3 +1,9 @@
+/**
+ * @author: <thitheguy@gmail.com> Thiago Lima
+ * @description: main entry for the application.
+ * @version: 0.1.0
+*/
+
 #include <iostream>
 #include <string.h>
 #include <string>
